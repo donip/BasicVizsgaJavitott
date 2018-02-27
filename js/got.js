@@ -40,7 +40,6 @@ function dataSortingByName(data) {
         if (nameA > nameB) {
             return 1;
         }
-
         return 0;
     });
     characterLister(data);  //userDatas továbbadása characterLister-nek
@@ -50,7 +49,7 @@ function dataSortingByName(data) {
 /*-------------------------- FOR CIKLUS AZ ÖSSZES SZEREPLŐ LISTÁZÁSÁHOZ ---------------------------------*/
 function characterLister(data) {
     for (var i = 0; i < data.length; i++) {
-        createDiv(data, data[i].name, data[i].portrait, i); //sokszor lefuttatja createDiv-et
+        createDiv(data, data[i].name, data[i].portrait, i); //lefuttatja createDiv-et
     }
 }
 //----------------------------------------------------------------------------------------------//

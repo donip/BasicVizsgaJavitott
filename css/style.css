@@ -31,8 +31,9 @@ main>div {
     width: 25%
 }
 
-h1 {
+h1 { /*game of thrones*/
     color: white;
+    text-transform: uppercase;
     text-align: center
 }
 
